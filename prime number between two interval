@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<coino.h>
+#include<conio.h>
 int main()
 {
 int i,j,b,n;
