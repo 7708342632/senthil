@@ -14,4 +14,6 @@ void main();
             count++;    
     }
     printf("%d", count + 1);
+    getch();
+    return 0;
 }
