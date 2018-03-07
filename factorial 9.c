@@ -1,13 +1,20 @@
 #include<stdio.h>
 #include<conio.h>
+int main ();
 {
-
-	int n,i,fact=1;
-	scanf("%d",&n);
-	for(i=1;i<=n;i++)
-	{
-		fact=fact*i;
-	}
-	printf("%d",fact);
-	return 0;
+	int a=1,b=1,i,n,c;
+printf("\n enter the range to print the Fibonacci numbers\n");
+scanf("%d",&n);
+printf("%d",a);
+printf("\t%d",b);
+for(i=1;i<=n-2;i++)
+{
+c=a+b;
+printf("\t%d",c);
+a=b;
+b=c;
 }
+return 0;
+}
+
+
